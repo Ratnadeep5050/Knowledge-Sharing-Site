@@ -1,0 +1,85 @@
+body{
+	background-image: url("Index.jpg");
+	background-repeat: round;
+}
+
+.header{
+	height: 150px;
+	margin-bottom: 0px;
+	font-family: "Impact"
+}
+
+h1 {
+    position: absolute;
+    bottom: 505px;
+    font-size: 85;
+}
+
+#intro{
+	font-family: "Comic Sans MS";
+    font-size: 35;
+    font-style: italic;
+    position: absolute;
+    top: 50px;
+    left: 3px;
+}
+
+#signIn{
+	position: absolute;
+	left: 780px;
+	bottom: 610px;
+}
+
+#signUp{
+	position: absolute;
+	top: 250px;
+	left: 480px;
+}
+
+#signUpTitle{
+	position: absolute;
+	left: 610px;
+	font-size: 30;
+}
+
+#firstName, #email, #password, #sex{
+	color: grey;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 7px;
+}
+
+#surname{
+	color: grey;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 7px;
+	border-radius: 7px;
+}
+
+#sex{
+	width: 380px;
+}
+
+#submit{
+	padding: 5px;
+	margin: 5px;
+	border-radius: 7px;
+	width: 380px;
+}
+
+#loginSubmit{
+	position: absolute;
+    left: 465px;
+    bottom: .5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.footer{
+	font-family: "Impact";
+	margin-top: 400px;
+	height: 95px;
+}
