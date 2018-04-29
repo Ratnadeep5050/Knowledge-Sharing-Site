@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Healer</title>
+        <link rel="stylesheet" type="text/css" href="/opt/lampp/htdocs/Healer/CSSss"/>
+    </head>
+    <body>
+ 	<div class="header">
+  	    <h1>H e a l e r</h1>
+     	        <p id="intro">When no one is listening to you, we will</p>
+   		   <form name="signIn" method="POST" id="signIn" action="signIn.php">
+  		      <label>Email</label>
+ 		      <input type="text" id="emailBox" name="email"/>
+                      <label>Password</label>
+    		      <input type="password" id="passwordBox" name="password"/>
+	              <input type="submit" id="loginSubmit" name="loginSubmit" value="Login"/>
+                   </form>
+        </div>
+  
+  <h3 id="signUpTitle">Sign Up</h1>
+  
+  <form name="signUp" id="signUP" method="POST" action="signUp.php">
+    <input type="text" name="firstname" placeholder="First name" id="firstName"/>
+    <input type="text" name="surname" placeholder="Surname" id="surname"/></br>
+    <input type="text" name="email" placeholder="Email" id="email" size="48"/></br>
+    <input type="password" name="password" placeholder="Password" id="password" size="48"/></br>
+    <select name="sex" id="sex">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select></br>
+    <input type="submit" name="submit" id="submit" value="Sign Up!"/>
+  </form>
+  
+  <div class="footer">
+     <p id="lastMod">
+        <script language="Javascript">
+	   document.write("Last modified on " + document.lastModified + " ");
+	</script>
+     </p>
+  </div>
+ </body>
+</html>
