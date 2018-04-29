@@ -1,0 +1,74 @@
+.searchBar{
+	color: white;
+	background-color: black;
+	height: 35px;
+	margin-bottom: 0px;
+	font-family: "Impact";
+}
+
+body{
+	background-image: url("Index.jpg");
+	background-repeat: round;
+	background-attachment: fixed;
+}
+
+#askTitle{
+	position: absolute;
+    left: 30;
+    bottom: 605px;
+    font-size: 20px;
+}
+
+#ask{
+	position: absolute;
+    left: 200px;
+    top: 15px;
+    height: 20px;
+    width: 600;
+}
+
+#questionSubmit{
+    position: absolute;
+    left: 810px;
+    top: 15px;
+    border-radius: 5px;
+}
+
+#questionsFeed{
+	position: absolute;
+    left: 865px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+#notification{
+	position: absolute;
+    left: 1000px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+#userProfile{
+	position: absolute;
+    left: 1112px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+#logout{
+	position: absolute;
+	left: 1250px;
+	top: 15px;
+}

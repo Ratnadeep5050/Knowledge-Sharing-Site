@@ -1,0 +1,168 @@
+body{
+	background-image: url("Index.jpg");
+	background-repeat: round;
+	background-attachment: fixed;
+}
+
+h1 {
+    position: absolute;
+    bottom: 505px;
+    font-size: 85;
+}
+
+.searchBar{
+	color: white;
+	background-color: black;
+	height: 35px;
+	margin-bottom: 0px;
+	font-family: "Impact";
+}
+
+#askTitle{
+	position: absolute;
+    left: 30;
+    bottom: 605px;
+    font-size: 20px;
+}
+
+#ask{
+	position: absolute;
+    left: 200px;
+    top: 15px;
+    height: 20px;
+    width: 600;
+}
+
+#questionSubmit{
+    position: absolute;
+    left: 810px;
+    top: 15px;
+    border-radius: 5px;
+}
+
+#questionsFeed{
+	position: absolute;
+    left: 865px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+#notification{
+	position: absolute;
+    left: 1000px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+#userProfile{
+	position: absolute;
+    left: 1112px;
+    top: 15;
+    background-color: FFF8BC;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+.intro{
+	height: 160px;
+	border-bottom: 1px solid black;
+}
+
+#profilePic{
+	position: absolute;
+    left: 600px;
+    width: 110px;
+	height: 110px;
+    top: 55px;
+}
+
+#username{
+	position: absolute;
+    font-family: "Impact";
+    top: 145px;
+    left: 619px;
+    font-size: 25px;
+	text-align:center;
+}
+
+#logout{
+	position: absolute;
+	left: 1250px;
+	top: 15px;
+}
+
+.impressum{
+	position: absolute;
+    left: 300px;
+    margin: 5px;
+    width: 725;
+    text-align: center;
+	height: 80px;
+}
+
+.basicInfo{
+	position: absolute;
+    border-right: 1px solid;
+    width: 275px;
+    height: 100%;
+	background-color: rgba(255, 248, 220, 0.12);
+}
+
+
+.chat{
+	position: absolute;
+    right: 8px;
+    height: 100%;
+    width: 305px;
+    border-left: 1px solid black;
+	background-color: rgba(240, 248, 255, 0.21);
+}
+
+.content{
+	position: absolute;
+    bottom: 315px;
+    left: 305px;
+    width: 725;
+    top: 305px;
+    height: auto;
+}
+
+.answerContainer{
+	position: relative;
+    width: 650px;
+    left: 20px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    margin: 5;
+    padding-left: 15px;
+}
+
+.question {
+    position: relative;
+    border: 1px solid;
+    margin: 10px;
+    border-color: rgba(0, 0, 0, 0.22);
+    background-color: rgba(240, 248, 255, 0.33);
+}
+
+.thank{
+	position: relative;
+	left: 25px;
+}
+
+.footer{
+	font-family: "Impact";
+	margin-top: 400px;
+	height: 95px;
+}
