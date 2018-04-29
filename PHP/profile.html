@@ -1,0 +1,74 @@
+<html>
+
+ <head>
+ 
+  <title>
+  
+   <?php
+   
+    session_start();
+	
+	echo $_SESSION['firstname'];
+   
+   ?>
+  
+  </title>
+  <link rel="stylesheet" type="text/css" href="profile.css"/>
+ 
+ </head>
+ 
+ <body>
+ 
+  <div class="searchBar">
+  
+   <p id="askTitle">ASK YOUR QUESTION</p>
+   
+   <form name="askBox" id="askBox" method="POST" action="">
+   
+    <input type="text" name="ask" id="ask"/>
+	
+	<input type="submit" id="questionSubmit" name="questionSubmit" value="Ask"/>
+   
+   </form>
+   
+   <a href="" id="questionsFeed">Questions Feed</a>
+   <a href="" id="notification">Notification</a>
+   <a href="" id="userProfile">User</a>
+   
+  </div>
+  
+  <div class="Intro">
+  
+   <img id="profilePic" src="d.jpg"/>
+  
+   <p id="username"><?php echo $_SESSION['firstname']?></p>
+  
+  </div>
+  
+  <div class="impressum">
+  
+   <p id="impressum">This is about me, My impressum</p>
+  
+  </div>
+  
+  <div class="basicInfo">
+  
+   <p id="basicInfo">Basic Info</p>
+  
+  </div>
+  
+  <div class="chat">
+  
+   <p id="chat">Chat Section</p>
+  
+  </div>
+  
+  <div class="content">
+  
+   <p id="content">Here are the contents</p>
+  
+  </div>
+ 
+ </body>
+
+</html>
